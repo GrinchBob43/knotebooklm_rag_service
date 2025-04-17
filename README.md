@@ -17,7 +17,7 @@ This project is a text embedding and storage system that processes text document
 - **`split.py`**: Contains the logic for splitting text into smaller chunks.
 - **`text_split.py`**: A script for testing text splitting and embedding functionality.
 - **`post.py`**: A script for testing the API by sending a sample document.
-- **`test.txt`**: A sample text file used for testing.
+
 
 ## Setup
 - Clone this repository using
