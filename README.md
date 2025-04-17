@@ -18,20 +18,38 @@ This project is a text embedding and storage system that processes text document
 - **`text_split.py`**: A script for testing text splitting and embedding functionality.
 - **`post.py`**: A script for testing the API by sending a sample document.
 - **`test.txt`**: A sample text file used for testing.
-- **`chroma_langchain_db/`**: Directory containing the Chroma vector database.
-- **`.gitignore`**: Specifies files and directories to be ignored by Git.
 
+## Setup
+- Clone this repository using
+  ```sh
+  git clone https://github.com/GrinchBob43/knotebooklm_rag_service.git
+  cd knotebooklm_rag_service
+  ```
+- create a .env file with
+  ```sh
+  nano .env
+  ```
+  Then set variable ```GOOGLE_API_KEY='<My google developer API key'>```
+  Then use ```Ctrl + X``` to exit and save
+- Install dependencies with:
+  ```sh
+  pip install requirements.txt
+  ```
+- Run the API with
+  ```sh
+  python3 api.py
+  ```
 
 ## Usage
 Testing Text Splitting and Embedding:
-Run the text_split.py script to test text splitting and embedding:
+ Run the text_split.py script to test text splitting and embedding functionality
  
 ## Testing the API
-Run the post.py script to test the API:
+Run the post.py script to test the API
 
 
 ## Adding New Documents
-Send a POST request to the /new endpoint of the API with the following JSON payload:
+Send a POST request to the /new endpoint of the API with the following metadata:
 
 {
   "text": "<your-text>",
