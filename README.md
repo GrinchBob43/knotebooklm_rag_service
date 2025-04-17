@@ -29,7 +29,7 @@ This project is a text embedding and storage system that processes text document
   ```sh
   nano .env
   ```
-  Then set variable ```GOOGLE_API_KEY='<My google developer API key'>```
+  Then set variable ```GOOGLE_API_KEY='<My google developer API key>'```
   Then use ```Ctrl + X``` to exit and save
 - Install dependencies with:
   ```sh
